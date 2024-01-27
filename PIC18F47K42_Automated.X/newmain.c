@@ -1,9 +1,3 @@
-/*
- * File:   newmain.c
- * Author: I71645
- *
- * Created on September 22, 2022, 2:33 PM
- */
 #include <xc.h>
 
 #pragma config WDTE = OFF        // WDT operating mode (WDT enabled regardless of sleep; SWDTEN is ignored)

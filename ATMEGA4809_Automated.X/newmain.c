@@ -1,9 +1,3 @@
-/*
- * File:   newmain.c
- * Author: I71645
- *
- * Created on January 23, 2023, 7:15 PM
- */
 #include <avr/io.h>
 #include <avr/cpufunc.h>
 

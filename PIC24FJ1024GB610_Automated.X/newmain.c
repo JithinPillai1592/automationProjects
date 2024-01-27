@@ -1,9 +1,3 @@
-/*
- * File:   newmain.c
- * Author: I71645
- *
- * Created on October 7, 2022, 1:10 PM
- */
 #include <xc.h>
 
 #pragma config ICS = PGD2               // ICD Communication Channel Select bits (Communicate on PGEC2 and PGED2)

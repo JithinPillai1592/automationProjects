@@ -19,9 +19,17 @@ int main() {
         PORTC.DIR = b;
         volatile uint8_t t = add(a, b, c);
         PORTA.DIR = t;
+	    ++m;
+	    --m;
+	    ++m;
+	    ++m;
+	    --m;
     }
 
     m = 0;
+	++m;
+	++m;
+	--m;
 
     return 0;
 }

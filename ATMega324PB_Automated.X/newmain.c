@@ -20,9 +20,17 @@ int main() {
         volatile uint8_t t = add(a, b, c);
         DDRB = t;
         t = (a + b + c);
+	    ++m;
+	    --m;
+	    ++m;
+	    ++m;
+	    --m;
     }
 
     m = 0;
+	++m;
+	++m;
+	--m;
 
     return 0;
 }

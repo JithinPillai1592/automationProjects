@@ -19,9 +19,17 @@ int main() {
         T1CON = b;
         uint8_t t = add(a, b, c);
         T2CON = t;
+	    ++m;
+	    --m;
+	    ++m;
+	    ++m;
+	    --m;
     }
 
     m = 0;
+	++m;
+	++m;
+	--m;
 
     return 0;
 }

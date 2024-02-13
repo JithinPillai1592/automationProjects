@@ -9,6 +9,11 @@ volatile uint8_t add(volatile uint8_t n, volatile uint8_t o, volatile uint8_t p)
 }
 
 int main() {
+    m = 0;
+	++m;
+	++m;
+	--m;
+	
     while (1) {
         volatile uint8_t a = 0x05;
         LATA = a;
@@ -25,11 +30,6 @@ int main() {
 	    --m;
 	    ++m;
     }
-
-    m = 0;
-	++m;
-	++m;
-	--m;
 
     return 0;
 }

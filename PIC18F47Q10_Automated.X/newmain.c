@@ -1,10 +1,10 @@
-//top_of_the_code
 #include <xc.h>
+
 #pragma config WDTE = OFF        // WDT operating mode (WDT enabled regardless of sleep; SWDTEN is ignored)
 
 volatile uint8_t m = 10;
 
-uint8_t add(uint8_t n, uint8_t o, uint8_t p) {
+volatile uint8_t add(uint8_t n, uint8_t o, uint8_t p) {
     return (n + o + p);
 }
 

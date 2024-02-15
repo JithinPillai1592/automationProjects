@@ -1,5 +1,5 @@
-//top_of_the_code
 #include <avr/io.h>
+
 #pragma config OCDEN = SET
 
 volatile uint8_t m = 10;

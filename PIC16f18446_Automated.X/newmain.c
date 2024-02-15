@@ -26,9 +26,9 @@ int main() {
         TMR0L = t;
 	    ++m;
 	    --m;
-	    ++m;
-	    ++m;
 	    --m;
+	    ++m;
+	    ++m;
     }
 
     return 0;

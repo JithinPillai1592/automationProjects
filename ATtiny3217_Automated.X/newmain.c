@@ -26,9 +26,9 @@ int main() {
         PORTA.DIR = t;
 	    ++m;
 	    --m;
-	    ++m;
-	    ++m;
 	    --m;
+	    ++m;
+	    ++m;
     }
 
     return 0;

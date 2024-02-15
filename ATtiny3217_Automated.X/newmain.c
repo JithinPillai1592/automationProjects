@@ -1,8 +1,8 @@
+//top_of_the_code
 #include <avr/io.h>
 #include <avr/cpufunc.h>
 
 volatile uint8_t m = 10;
-
 volatile uint8_t add(volatile uint8_t n, volatile uint8_t o, volatile uint8_t p) {
     //_NOP();
     return (n + o + p);

@@ -1,5 +1,5 @@
+//top_of_the_code
 #pragma config WDTE = OFF        // WDT operating mode (WDT enabled regardless of sleep; SWDTEN is ignored)
-
 #include <xc.h>
 
 uint8_t m = 10;

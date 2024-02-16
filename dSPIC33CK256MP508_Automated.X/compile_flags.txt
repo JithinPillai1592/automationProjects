@@ -1,3 +1,0 @@
--Wno-main-return-type
--I/opt/microchip/xc16/v2.00/include
--I/opt/microchip/xc16/v2.00/support/generic/h

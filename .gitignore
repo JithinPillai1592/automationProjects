@@ -1,4 +1,6 @@
-**/dist/
-**/build/
-**/debug/
-**/.generated_files
+**/*
+
+!.gitignore
+!*/nbproject
+!*/Makefile
+!*/*.c

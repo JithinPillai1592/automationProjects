@@ -1,0 +1,6 @@
+*/*
+
+!.gitignore
+!*/nbproject/
+!*/Makefile
+!*/*.c
